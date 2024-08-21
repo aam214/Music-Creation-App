@@ -26,9 +26,9 @@ button:hover{
   color: rgb(0, 0, 0);
   width: 200px;
   border-color: rgb(204, 0, 105);
-  border-width: 2px;
+  border-width: 3px;
   border-style: solid;
-  opacity: 0.8;
+
 }
 .snare-button, .crash-button, .kick-button, .tom-button{
   border-radius: 90px;
@@ -41,11 +41,17 @@ background-repeat: no-repeat;
 background-position: top;
 background-size: cover;
 }
+.crash-button:hover{
+  opacity: 0.5;
+}
 .snare-button{
   background-image:url(Images/snare.png);
 background-repeat: no-repeat;
 background-position: top top;
 background-size: cover;
+}
+.snare-button:hover{
+  opacity: 0.5;
 }
 .kick-button{
   background-image: url(Images/kick.png);
@@ -53,9 +59,15 @@ background-size: cover;
 background-position: center top;
 background-size: cover;
 }
+.kick-button:hover{
+  opacity: 0.5;
+}
 .tom-button{
   background-image: url(Images/tom.png);
   background-repeat: no-repeat;
 background-position: center top;
 background-size: cover;
+}
+.tom-button:hover{
+  opacity: 0.5;
 }
