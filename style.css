@@ -10,9 +10,13 @@
 }
 .title{
   color: #f0889e; 
+  font-size: 90px;
   text-align: center;
 text-shadow:  20px 20px 40px rgba(0,0,0,0.5);
   margin-top: 80px;
+}
+.sub-heading{
+  color: white;
 }
 button{
   margin-top: 20px;
