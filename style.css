@@ -38,7 +38,7 @@ box-shadow: 20px 20px 40px rgba(0,0,0,0.2);
 }
 button:hover{
   color: rgb(0, 0, 0);
-  width: 180px;
+  width: 200px;
   border-color: #97ff7d;
   border-width: 3px;
   border-style: solid;
@@ -47,6 +47,8 @@ button:hover{
   background-image: url(Images/crash.png);
   background-repeat: no-repeat;
   margin: 20px;
+  text-transform: capitalize;
+  font-size: 25px;
   border-radius: 80px;
   transition: all 200ms ease-in-out;
   background-position: top;
@@ -55,4 +57,11 @@ button:hover{
   .music-button:hover{
     opacity: 0.5;
   }
-  
+  @media(max-width:600px){
+.sub-heading{
+  font-size: 40px;
+  }
+  .information{
+    margin: 20px;
+  }
+  }

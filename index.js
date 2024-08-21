@@ -1,4 +1,4 @@
-const drums = ["Crash", "Tom", "Snare", "Kick",];
+const drums = ["crash", "tom", "snare", "kick",];
 const containerElement = document.querySelector(".container");
 
 
@@ -17,8 +17,8 @@ instrumentButton.addEventListener("click", () => {
 soundElement.play();
 });
 window.addEventListener("keydown", (event) => {
-  if (event.key === kit.slice(0,1)){
-
+  if (event.key === drum.slice(0,1)){
+soundElement.play()
   };
 })
 });
