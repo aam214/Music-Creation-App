@@ -1,35 +1,45 @@
 .body{
-  background-color: #0f1824; 
+  background-color: #041b38; 
 }
 .container{
   margin: 0 auto;
   display: block;
   max-width: 800px;
+  border: 2px solid #48ce26;
+  padding: 50px;
+  border-radius: 80px;
   text-align: center;
   margin-top: 20px;
+  text-shadow:  20px 20px 40px rgba(0,0,0,0.5);
 }
 .title{
-  color: #f0889e; 
+  color: white; 
   font-size: 90px;
   text-align: center;
 text-shadow:  20px 20px 40px rgba(0,0,0,0.5);
   margin-top: 80px;
 }
+.information{
+  color:white;
+  text-shadow:  20px 20px 40px rgba(0,0,0,0.5);
+  text-align: center;
+  letter-spacing: 2px;
+}
 .sub-heading{
-  color: white;
+  color:#48ce26;
+  font-size: 50px; 
+  text-shadow:  20px 20px 40px rgba(0,0,0,0.5);
 }
 button{
-padding: 30px 50px;
-
+padding: 40px 60px;
 border: none;
-
 cursor: pointer;
 box-shadow: 20px 20px 40px rgba(0,0,0,0.2);
 }
 button:hover{
   color: rgb(0, 0, 0);
   width: 180px;
-  border-color: rgb(204, 0, 105);
+  border-color: #97ff7d;
   border-width: 3px;
   border-style: solid;
 }

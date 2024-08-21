@@ -15,5 +15,10 @@ containerElement.appendChild(soundElement);
 
 instrumentButton.addEventListener("click", () => {
 soundElement.play();
+});
+window.addEventListener("keydown", (event) => {
+  if (event.key === kit.slice(0,1)){
+
+  };
 })
 });
