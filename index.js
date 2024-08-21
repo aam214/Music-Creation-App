@@ -19,6 +19,11 @@ soundElement.play();
 window.addEventListener("keydown", (event) => {
   if (event.key === drum.slice(0,1)){
 soundElement.play()
-  };
+instrumentButton.style.transform = "scale(1.2)";  
+setTimeout(() => {
+instrumentButton.style.transform = "scale(1)";
+}, 100);
+
+};
 })
 });
