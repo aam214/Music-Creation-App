@@ -11,18 +11,51 @@
 .title{
   color: #f0889e; 
   text-align: center;
-  box-shadow: 20px 20px 40px rgba(0,0,0,0.2);
+text-shadow:  20px 20px 40px rgba(0,0,0,0.5);
   margin-top: 80px;
 }
-.instrument-button{
+button{
+  margin-top: 20px;
   padding: 30px 50px;
   border: none;
-  margin: 20px;
+  transition: all 150ms ease-in-out;
 cursor: pointer;
-  font-size: 30px;
-  border-radius: 30px;
   box-shadow: 20px 20px 40px rgba(0,0,0,0.2);
 }
-.instrument-button:hover{
+button:hover{
+  color: rgb(0, 0, 0);
+  width: 200px;
+  border-color: rgb(204, 0, 105);
+  border-width: 2px;
+  border-style: solid;
   opacity: 0.8;
+}
+.snare-button, .crash-button, .kick-button, .tom-button{
+  border-radius: 90px;
+  margin: 20px;
+  font-size: 30px;
+}
+.crash-button{
+background-image: url(Images/crash.png);
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+}
+.snare-button{
+  background-image:url(Images/snare.png);
+background-repeat: no-repeat;
+background-position: top top;
+background-size: cover;
+}
+.kick-button{
+  background-image: url(Images/kick.png);
+  background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
+}
+.tom-button{
+  background-image: url(Images/tom.png);
+  background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
 }
